@@ -4,4 +4,37 @@
 	margin: 0;
 }
 
+// Fonts
+@font-face {
+    font-family: Century Gothic;
+    src: url(fonts/GOTHIC.ttf);
+    font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+    font-family: Century Gothic Bold;
+    src: url(fonts/GOTHICB.ttf);
+    font-weight: bold;
+		font-style: normal;
+}
+@font-face {
+    font-family: Century Gothic Bold Italic;
+    src: url(fonts/GOTHICBI.ttf);
+    font-weight: bold;
+		font-style: italic;
+}
+@font-face {
+    font-family: Century Gothic Italic;
+    src: url(fonts/GOTHICI.ttf);
+    font-weight: normal;
+		font-style: italic;
+}
+
+body {
+	font-family: 'Century Gothic', sans-serif;
+}
+
 // Colors
+$accent_col: #30de80;
+$text_col: #292828;
+$gradient: linear-gradient(#11998e, #38ef7d);
