@@ -31,10 +31,23 @@ body {
 	font-size: 20px;
 }
 
+// Variables
+
+// Max width of content
+$max-w: 1920px;
+
 // Colors
+$black: #000000;
+$white: #ffffff;
+$grey: #727272;
 $accent_col: #30de80;
 $text_col: #292828;
 $gradient: linear-gradient(#11998e, #38ef7d);
+
+$shadow: 0 2px 3px rgba(35, 31, 32, .25);
+
+$transition: all 0.3s ease-in-out 0s;
+
 
 // Imports
 @import 'header';
@@ -42,6 +55,8 @@ $gradient: linear-gradient(#11998e, #38ef7d);
 @import 'features';
 @import 'get-started';
 @import 'footer';
+
+@import 'pricing';
 
 // Reset
 * {
@@ -71,6 +86,7 @@ section {
 .wrapper {
 	padding-top: 80px;
 	width: 80%;
+	max-width: $max-w;
 	margin: 0 auto;
 }
 
@@ -86,24 +102,28 @@ section {
 // Buttons
 .button {
 	border-radius: 20px;
-	padding: 5px 15px;
+	padding: 5px 0;
 	transition: all .3s ease;
+	white-space: nowrap;
+	display: inline-block;
+	width: 130px;
+	text-align: center;
 }
 
 .green-button {
 	background-color: $accent_col;
 	border: 1px solid $accent_col;
 	&:hover {
-		background-color: #fff;
+		background-color: $white;
 		border: 1px solid $accent_col;
 	}
 }
 
 .black-button {
-	background-color: #fff;
-	border: 1px solid #000;
+	background-color: $white;
+	border: 1px solid $black;
 	&:hover {
-		color: #fff;
-		background-color: #000;
+		color: $white;
+		background-color: $black;
 	}
 }

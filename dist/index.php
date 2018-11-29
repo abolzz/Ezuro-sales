@@ -1,18 +1,6 @@
 <!doctype html>
 <html lang="en-US">
-    <head>
-    	<meta charset="UTF-8">
-    	<meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="">
-
-    	<!-- Styles -->
-    	<link rel="stylesheet" type="text/css" href="css/styles.min.css">
-
-      <title>Ezuro</title>
-
-      <!-- jQuery -->
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    </head>
+  	<?php $title = "Home"; include'includes/head.php'; ?>
     <body>
     	<?php include'includes/header.html'; ?>
     	<div class="wrapper">
@@ -95,6 +83,7 @@
 	    			<input class="signup-input" type="text" name="email" placeholder="Email...">
 	    			<button class="button green-button">Sign Up</button>
 	    		</form>
+	    		<p class="note-text">In approximately 30 seconds you will recieve an email with a link to your demo instance.</p>
 	    	</section>
 
 	    	<?php include'includes/footer.html'; ?>

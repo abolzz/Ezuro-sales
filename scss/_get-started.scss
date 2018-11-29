@@ -7,9 +7,9 @@
 		text-transform: uppercase;
 		cursor: pointer;
 		font-size: 22px;
-		padding: 10px 30px;
+		padding: 10px 0;
 		border-radius: 40px;
-		white-space: nowrap;
+		width: 140px;
 	}
 }
 
@@ -25,11 +25,16 @@
 	padding: 10px 0;
 	margin-right: 12px;
 	text-indent: 15px;
-	border: 1px solid #000;
+	border: 1px solid $black;
 	border-radius: 10px;
 	&:focus {
 		outline: none;
 	}
+}
+
+.note-text {
+	font-style: italic;
+	font-size: 16px;
 }
 
 @media(max-width: 768px) {

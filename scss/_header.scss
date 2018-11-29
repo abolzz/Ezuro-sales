@@ -5,12 +5,13 @@
 	position: fixed;
 	height: 80px;
 	width: 100%;
-	background-color: #fff;
-	box-shadow: 0 2px 3px rgba(35, 31, 32, .25);
+	background-color: $white;
+	box-shadow: $shadow;
 }
 
 .navbar {
 	width: 80%;
+	max-width: $max-w;
 	height: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -41,16 +42,16 @@
 }
 
 .mobile-menu-icon {
-	width: 40px;
-	height: 24px;
+	width: 36px;
+	height: 21px;
 	position: relative;
 	span {
 		display: block;
     position: absolute;
-  	height: 2px;
+  	height: 1px;
   	width: 100%;
-  	background-color: #000;
-  	transition: all 0.2s ease-in-out 0s;
+  	background-color: $black;
+  	transition: $transition;
 		&:first-of-type {
 			top: 0;
 		}
@@ -58,10 +59,10 @@
 		&:nth-of-type(3) {
 			width: 80%;
 			margin-left: 20%;
-			top: 11px;
+			top: 10px;
 		}
 		&:nth-of-type(4) {
-			top: 22px;
+			top: 20px;
 		}
   }
 }
@@ -70,17 +71,19 @@
 	display: flex;
 	list-style: none;
 	a {
-		padding: 5px 20px 5px 0;
-		&:hover {
-			&:after {
-				content: '';
-					 height: 1px;
-					 background: black; 
-					 display:block;
+		padding: 5px 25px 5px 0;
+		@media(min-width: 769px) {
+			&:hover {
+				&:after {
+					content: '';
+					height: 1px;
+					background: $black; 
+					display: block;
+				}
 			}
 		}
 		&:last-of-type {
-			padding: 5px 15px;
+			padding: 5px 0;
 			&:after {
 				display: none;
 			}
@@ -88,7 +91,7 @@
 	}
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 	.navbar {
 		width: 90%;
 	}
@@ -96,6 +99,50 @@
 		display: block;
 	}
 	.navbar-ul {
-		display: none;
+		flex-direction: column;
+		padding-top: 80px;
+		width: 60%;
+		margin: 0 auto;
+		a {
+			position: relative;
+			padding: 0;
+			margin: 10px 0;
+			&:last-of-type {
+				&:before {
+					display: none;
+				}
+				li {
+					margin-left: 0;
+				}
+			}
+			li {
+				margin-left: 20px;
+			}
+		}
+		.active {
+			&:before {
+				content: '';
+				height: 100%;
+				width: 1px;
+				background: $black; 
+				position: absolute;
+			}
+		}
+	}
+
+	.mobile-menu-wrap {
+		width: 80vw;
+		height: 100vh;
+		top: 0;
+		right: 0;
+		position: fixed;
+		background-color: $white;
+		margin: 0 -80vh 0 0;
+		transition: $transition;
+		box-shadow: $shadow;
+	}
+
+	.mobile-menu-show {
+		margin: 0;
 	}
 }
