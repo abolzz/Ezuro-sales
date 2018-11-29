@@ -55,6 +55,9 @@ a {
 button {
 	border: none;
 	background: none;
+	&:focus {
+		outline: none;
+	}
 }
 section {
 	padding-top: 50px;

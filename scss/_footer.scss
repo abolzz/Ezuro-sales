@@ -54,6 +54,16 @@
 	border-top: 1px solid #727272;
 }
 
+@media(max-width: 480px) {
+	.footer {
+		padding-top: 150px;
+	}
+
+	.footer-links {
+		column-count: 2;
+	}
+}
+
 @media(max-width: 768px) {
 	.upper-footer {
 		width: 80%;
@@ -62,5 +72,10 @@
 
 	.footer-links-wrap {
 		width: 100%;
+	}
+
+	.footer-logo {
+		width: 50%;
+		margin-top: 20px;
 	}
 }

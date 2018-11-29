@@ -1,7 +1,10 @@
 // Scripts
 
-/*
-var menuButton = document.getElementById("menu-button");
+$(document).ready(function() {
 
-menuButton.classList.remove("d-none");
-*/
+  // Mobile menu
+  $('.mobile-menu-button').click(function() {
+    $(".mobile-menu-icon").toggleClass("open");
+  });
+
+})
