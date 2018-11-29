@@ -1,0 +1,13 @@
+<svg id="burger_icon" data-name="burger icon" xmlns="http://www.w3.org/2000/svg" width="50" height="34" viewBox="0 0 50 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #343434;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1517,128v-3h50v3h-50Z" transform="translate(-1517 -125)"/>
+  <path id="Shape_16_copy" data-name="Shape 16 copy" class="cls-1" d="M1517,159v-3h50v3h-50Z" transform="translate(-1517 -125)"/>
+  <path id="Shape_16_copy_2" data-name="Shape 16 copy 2" class="cls-1" d="M1527,144v-3h40v3h-40Z" transform="translate(-1517 -125)"/>
+</svg>

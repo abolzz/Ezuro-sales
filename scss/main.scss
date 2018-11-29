@@ -1,40 +1,106 @@
 // General style rules
-* {
-	padding: 0;
-	margin: 0;
-}
 
 // Fonts
 @font-face {
     font-family: Century Gothic;
-    src: url(fonts/GOTHIC.ttf);
+    src: url(../fonts/GOTHIC.ttf);
     font-weight: normal;
 		font-style: normal;
 }
 @font-face {
-    font-family: Century Gothic Bold;
-    src: url(fonts/GOTHICB.ttf);
+    font-family: Century Gothic;
+    src: url(../fonts/GOTHICB.ttf);
     font-weight: bold;
 		font-style: normal;
 }
 @font-face {
-    font-family: Century Gothic Bold Italic;
-    src: url(fonts/GOTHICBI.ttf);
+    font-family: Century Gothic;
+    src: url(../fonts/GOTHICBI.ttf);
     font-weight: bold;
 		font-style: italic;
 }
 @font-face {
-    font-family: Century Gothic Italic;
-    src: url(fonts/GOTHICI.ttf);
+    font-family: Century Gothic;
+    src: url(../fonts/GOTHICI.ttf);
     font-weight: normal;
 		font-style: italic;
 }
 
 body {
 	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
 }
 
 // Colors
 $accent_col: #30de80;
 $text_col: #292828;
 $gradient: linear-gradient(#11998e, #38ef7d);
+
+// Imports
+@import 'header';
+@import 'intro-section';
+@import 'features';
+@import 'get-started';
+@import 'footer';
+
+// Reset
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: $text_col;
+}
+button {
+	border: none;
+	background: none;
+}
+section {
+	padding-top: 50px;
+}
+.h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+// Wrapper
+.wrapper {
+	padding-top: 80px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media(max-width: 1024px) {
+	body {
+		font-size: 18px;
+	}
+	.wrapper {
+		width: 90%;
+	}
+}
+
+// Buttons
+.button {
+	border-radius: 20px;
+	padding: 5px 15px;
+	transition: all .3s ease;
+}
+
+.green-button {
+	background-color: $accent_col;
+	border: 1px solid $accent_col;
+	&:hover {
+		background-color: #fff;
+		border: 1px solid $accent_col;
+	}
+}
+
+.black-button {
+	background-color: #fff;
+	border: 1px solid #000;
+	&:hover {
+		color: #fff;
+		background-color: #000;
+	}
+}

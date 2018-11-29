@@ -1,0 +1,67 @@
+// Navigation styles
+
+.header {
+	z-index: 2;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 2px 3px rgba(35, 31, 32, .25);
+}
+
+.navbar {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+}
+
+.menu-button {
+	display: none;
+}
+.burger-icon {
+	width: 50px;
+	height: 34px;
+}
+
+.navbar-ul {
+	display: flex;
+	list-style: none;
+	a {
+		padding: 5px 20px 5px 0;
+		&:hover {
+			&:after {
+				content: '';
+					 height: 1px;
+					 background: black; 
+					 display:block;
+			}
+		}
+		&:last-of-type {
+			padding: 5px 15px;
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.navbar {
+		width: 90%;
+	}
+	.menu-button {
+		display: block;
+	}
+	.navbar-ul {
+		display: none;
+	}
+}

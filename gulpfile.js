@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 gulp.task('connect', function() {
   connect.server({
     // (need to specify local PHP install location)
-    base: 'assets',
+    base: 'dist',
     bin: 'C:/Xampp/php/php.exe',
     ini: 'C:/Xampp/php/php.ini'
   }, function (){
@@ -31,32 +31,28 @@ gulp.task('sass', function() {
   .pipe(cleanCSS())
   .pipe(concat('styles.min.css'))
   .pipe(sourcemaps.write())
-  .pipe(gulp.dest('assets/css'))
+  .pipe(gulp.dest('dist/css'))
 });
 
 // Minify and concatenate all JS and create a sourcemap
 var uglify = require('gulp-uglify');
-// const babel = require('gulp-babel');
 
 gulp.task('js', function() {
   gulp.src('js/*.js')
   .pipe(sourcemaps.init())
-  /* .pipe(babel({
-            presets: ['es2015']
-        })) */
   .pipe(uglify().on('error', function(e){
             console.log(e);
          }))
   .pipe(concat('scripts.min.js'))
   .pipe(sourcemaps.write())
-  .pipe(gulp.dest('assets/js'))
+  .pipe(gulp.dest('dist/js'))
 });
 
 // Minifies the images
 gulp.task('images', function() {
     gulp.src('img/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('assets/img'))
+        .pipe(gulp.dest('dist/img'))
 });
 
 // Watch for file changes
@@ -64,7 +60,7 @@ gulp.task('watch', function() {
   gulp.watch('img/*', ['images']);
   gulp.watch('js/*.js', ['js']);
   gulp.watch('scss/*.scss', ['sass']);
-  gulp.watch(['assets/*.html', 'assets/*.php', 'assets/includes/*.html', 'assets/includes/*.php', 'assets/css/*.css', 'assets/js/*.js', 'img/*']).on('change', function () {
+  gulp.watch(['dist/*.html', 'dist/*.php', 'dist/includes/*.html', 'dist/includes/*.php', 'dist/css/*.css', 'dist/js/*.js', 'img/*']).on('change', function () {
     browserSync.reload();
   });
 });
