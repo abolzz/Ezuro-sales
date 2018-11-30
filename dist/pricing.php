@@ -64,6 +64,34 @@
     		</div>
     	</section>
 
+    	<section class="faq-section">
+    		<h1 class="h1">FAQ</h1>
+    		<h2 class="category">Category</h2>
+    		<p class="question">How to do this and that?</p>
+    		<p class="answer">Our schedule module takes care of everything regarding schedules. You won’t need to make them on your own anymore. </p>
+
+    		<p class="question">How to do this and that?</p>
+    		<p class="answer">Our schedule module takes care of everything regarding schedules. You won’t need to make them on your own anymore. </p>
+
+    		<h2 class="category">Category</h2>
+    		<p class="question">How to do this and that?</p>
+    		<p class="answer">Our schedule module takes care of everything regarding schedules. You won’t need to make them on your own anymore. </p>
+
+    		<p class="question">How to do this and that?</p>
+    		<p class="answer">Our schedule module takes care of everything regarding schedules. You won’t need to make them on your own anymore. </p>
+    	</section>
+
+    	<section class="question-section">
+    		<h1 class="h1">Still have questions?</h1>
+    		<p class="question-desc">Send us a message and we wil answer as soon as possible.</p>
+    		<form class="form">
+	    			<input class="input" type="text" name="name" placeholder="Name...">
+	    			<input class="input" type="text" name="email" placeholder="Email...">
+	    			<textarea class="input" placeholder="Message..."></textarea>
+	    			<button class="button green-button">Send</button>
+	    		</form>
+    	</section>
+
     	<?php include'includes/footer.html'; ?>
     	</div>
     </body>

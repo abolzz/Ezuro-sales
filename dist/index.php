@@ -78,9 +78,9 @@
 	    	<section class="get-started-section">
 	    		<h1 class="h1">Get Started</h1>
 	    		<p>Just fill in your details and you are good to go!</p>
-	    		<form class="signup-form">
-	    			<input class="signup-input" type="text" name="name" placeholder="Name...">
-	    			<input class="signup-input" type="text" name="email" placeholder="Email...">
+	    		<form class="form signup-form">
+	    			<input class="input signup-input" type="text" name="name" placeholder="Name...">
+	    			<input class="input signup-input" type="text" name="email" placeholder="Email...">
 	    			<button class="button green-button">Sign Up</button>
 	    		</form>
 	    		<p class="note-text">In approximately 30 seconds you will recieve an email with a link to your demo instance.</p>

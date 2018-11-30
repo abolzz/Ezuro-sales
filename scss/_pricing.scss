@@ -1,8 +1,12 @@
+.pricing-section {
+	padding-top: 30px;
+}
+
 .pricing-model-wrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .price-model {
@@ -10,9 +14,9 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 25px;
-	width: 25%;
-	max-width: 400px;
+	margin: 0 20px;
+	width: 27.5%;
+	max-width: 380px;
 	height: 480px;
 	border-radius: 30px;
 	box-shadow: $shadow;
@@ -70,6 +74,48 @@
 	.package-name {
 		font-style: italic;
 	}
+}
+
+.faq-section {
+	width: 90%;
+	margin: 0 auto;
+	@media(min-width: 480px) {
+		width: 80%;
+	}
+	@media(min-width: 768px) {
+		width: 70%;
+	}
+	@media(min-width: 1024px) {
+		width: 60%;
+	}
+	@media(min-width: 1366px) {
+		width: 50%;
+	}
+	@media(min-width: 1920px) {
+		width: 40%;
+	}
+	.category {
+		padding-top: 30px;
+		text-decoration: underline;
+	}
+	.question {
+		font-style: italic;
+		font-weight: bold;
+		padding-top: 15px;
+		font-size: 22px;
+	}
+	.answer {
+		padding-top: 5px;
+		font-size: 18px;
+	}
+}
+
+.question-section {
+	text-align: center;
+}
+
+.question-desc {
+	padding-top: 30px;
 }
 
 @media(max-width: 768px) {
