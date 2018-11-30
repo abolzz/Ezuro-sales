@@ -1,5 +1,9 @@
 .feature {
-	margin-top: 80px;
+	margin-top: 100px;
+	.button {
+		text-transform: none;
+		width: 150px;
+	}
 }
 
 .feature-img {
@@ -29,8 +33,14 @@
 
 	.feature-img,
 	.feature-text {
-		width: 47%;
+		width: 42.5%;
 		margin: 0 1.5%;
+	}
+
+	.feature-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.feature-img {
@@ -43,6 +53,7 @@
 	  .feature-text {
 	  	order: 1;
 	  	text-align: right;
+	  	align-items: flex-end;
 	  }
 	  .feature-img {
 	  	order: 2;
@@ -51,7 +62,9 @@
 	  	}
 	  }
 	}
+}
 
+@media(min-width: 768px) {
 	.feature-list {
 		column-count: 2;
 	}
@@ -62,6 +75,10 @@
 	.feature-text {
 		width: 100%;
 		text-align: center;
+	}
+
+	.feature-text {
+		padding-top: 20px;
 	}
 
 	.feature-desc {

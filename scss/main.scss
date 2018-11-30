@@ -75,11 +75,24 @@ button {
 	}
 }
 section {
-	padding-top: 130px;
+	padding-top: 150px;
 }
 .h1 {
 	font-size: 40px;
 	text-align: center;
+}
+
+::-webkit-input-placeholder {
+    font-family: Century Gothic;
+}
+:-moz-placeholder {
+    font-family: Century Gothic;
+}
+::-moz-placeholder {
+    font-family: Century Gothic;
+}
+:-ms-input-placeholder {
+    font-family: Century Gothic;
 }
 
 // Wrapper
@@ -108,6 +121,8 @@ section {
 	display: inline-block;
 	width: 130px;
 	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .green-button {

@@ -1,11 +1,13 @@
 .get-started-section {
 	text-align: center;
-	p {
-		padding: 40px 0 25px;
+	margin: 0 auto;
+	@media(min-width: 480px) and (max-width: 768px) {
+		width: 80%;
+	}
+	.get-started-desc {
+		padding-top: 40px;
 	}
 	.button {
-		text-transform: uppercase;
-		cursor: pointer;
 		font-size: 22px;
 		padding: 10px 0;
 		border-radius: 40px;
@@ -17,6 +19,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 35px;
 }
 
 .input {
@@ -29,12 +32,14 @@
 	border-radius: 10px;
 	&:focus {
 		outline: none;
+		box-shadow: 0 0 1px $grey;
 	}
 }
 
 .note-text {
 	font-style: italic;
 	font-size: 16px;
+	padding-top: 20px;
 }
 
 @media(max-width: 768px) {
@@ -48,9 +53,9 @@
 	}
 
 	.get-started-section {
-	.button {
-		padding: 5px 25px;
-		margin-top: 15px;
+		.button {
+			padding: 5px 25px;
+			margin-top: 15px;
+		}
 	}
-}
 }

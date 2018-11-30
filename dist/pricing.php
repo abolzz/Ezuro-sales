@@ -84,10 +84,10 @@
     	<section class="question-section">
     		<h1 class="h1">Still have questions?</h1>
     		<p class="question-desc">Send us a message and we wil answer as soon as possible.</p>
-    		<form class="form">
-	    			<input class="input" type="text" name="name" placeholder="Name...">
-	    			<input class="input" type="text" name="email" placeholder="Email...">
-	    			<textarea class="input" placeholder="Message..."></textarea>
+    		<form name="question-form" class="form question-form">
+	    			<input class="input" type="text" name="name" placeholder="Name..." required>
+	    			<input class="input" type="text" name="email" placeholder="Email..." required>
+	    			<textarea class="input text-input" placeholder="Message..." required></textarea>
 	    			<button class="button green-button">Send</button>
 	    		</form>
     	</section>
