@@ -15,7 +15,7 @@
 	    	<section class="features-section">
 	    		<h1 class="h1">Why Ezuro?</h1>
 
-	    		<article class="feature">
+	    		<article class="feature" data-aos="fade-up">
 	    			<div class="feature-img">
 	    				<img src="http://placehold.jp/500x360.png">
 	    			</div>
@@ -35,7 +35,7 @@
 	    			</div>
 	    		</article>
 
-	    		<article class="feature">
+	    		<article class="feature" data-aos="fade-up">
 	    			<div class="feature-img">
 	    				<img src="http://placehold.jp/500x360.png">
 	    			</div>
@@ -115,7 +115,7 @@
 	    	</section>
 	    -->
 
-	    	<section id="get-started-section" class="get-started-section">
+	    	<section id="get-started-section" class="get-started-section" data-aos="fade-up">
 	    		<h1 class="h1">Get Started</h1>
 	    		<p class="get-started-desc">Just fill in your details and you are good to go!</p>
 	    		<form class="form signup-form">
