@@ -4,7 +4,7 @@
     <body>
     	<?php include'includes/header.html'; ?>
     	<div class="wrapper">
-	    	<section class="intro-section">
+	    	<section class="intro-section" data-aos="fade-up">
 	    		<div class="intro-text">
 	    			<h1 class="headline">All your business needs in one place</h1>
 	    			<p class="subheadline">Ezuro lets you manage and overview every aspect of your company's workflow.</p>
@@ -12,7 +12,7 @@
 	    		<img class="intro-img" src="http://placehold.jp/800x900.png" alt="">
 	    	</section>
 
-	    	<section class="features-section">
+	    	<section class="features-section" data-aos="fade-up">
 	    		<h1 class="h1">Why Ezuro?</h1>
 
 	    		<article class="feature" data-aos="fade-up">
