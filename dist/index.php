@@ -7,11 +7,57 @@
 	    	<section class="intro-section">
 	    		<div class="intro-text">
 	    			<h1 class="headline">All your business needs in one place</h1>
-	    			<p class="subheadline">Lorem ipsum asdasd asd asdddd awrbf aeee d asdww grerewqq asdww cvvaw sa. Lorem ipsum asdasd asd asdddd awrbf aeee d asdww grerewqq asdww cvvaw sa.</p>
+	    			<p class="subheadline">Ezuro lets you manage and overview every aspect of your company's workflow.</p>
 	    		</div>
 	    		<img class="intro-img" src="http://placehold.jp/800x900.png" alt="">
 	    	</section>
 
+	    	<section class="features-section">
+	    		<h1 class="h1">Why Ezuro?</h1>
+
+	    		<article class="feature">
+	    			<div class="feature-img">
+	    				<img src="http://placehold.jp/500x360.png">
+	    			</div>
+	    			<div class="feature-text">
+	    				<h2 class="h2">Manage</h2>
+	    				<p class="feature-desc">Manage all your company's internal processes in one place. Ezuro lets you easily find employee contact information, overview and edit their positions, duties and responsibilities effortlessly from place and device you prefer.</p>
+	    				<ul class="feature-list">
+	    					<li>Auto generated schedules</li>
+	    					<li>Responsibility support</li>
+	    					<li>Schedule events</li>
+	    					<li>Employee access</li>
+	    					<li>Unavailable days</li>
+	    					<li>Detailed reports</li>
+	    					<li>Self-service shift switching</li>
+	    				</ul>
+	    				<a href="" class="button black-button">Learn more</a>
+	    			</div>
+	    		</article>
+
+	    		<article class="feature">
+	    			<div class="feature-img">
+	    				<img src="http://placehold.jp/500x360.png">
+	    			</div>
+	    			<div class="feature-text">
+	    				<h2 class="h2">Overview</h2>
+	    				<p class="feature-desc">Keep up with the newest statistics of finance and other key performance indicators(KPI's) in realtime and overview all business processes step-by-step.</p>
+	    				<ul class="feature-list">
+	    					<li>Auto generated schedules</li>
+	    					<li>Responsibility support</li>
+	    					<li>Schedule events</li>
+	    					<li>Employee access</li>
+	    					<li>Unavailable days</li>
+	    					<li>Detailed reports</li>
+	    					<li>Self service shift switching</li>
+	    				</ul>
+	    				<a href="" class="button black-button">Learn more</a>
+	    			</div>
+	    		</article>
+
+	    	</section>
+
+<!--
 	    	<section class="features-section">
 	    		<h1 class="h1">Features</h1>
 	    		<article class="feature">
@@ -67,6 +113,7 @@
 	    			</div>
 	    		</article>
 	    	</section>
+	    -->
 
 	    	<section id="get-started-section" class="get-started-section">
 	    		<h1 class="h1">Get Started</h1>
