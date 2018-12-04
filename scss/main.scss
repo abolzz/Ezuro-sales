@@ -1,6 +1,7 @@
 // General style rules
 
 // Fonts
+/*
 @font-face {
     font-family: Century Gothic;
     src: url(../fonts/GOTHIC.ttf);
@@ -25,6 +26,7 @@
     font-weight: normal;
 		font-style: italic;
 }
+*/
 
 // Variables
 
@@ -44,10 +46,12 @@ $shadow: 0 2px 3px rgba(35, 31, 32, .25);
 $transition: all 0.3s ease-in-out 0s;
 
 body {
-	font-family: 'Century Gothic', sans-serif;
-	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	// font-family: 'Century Gothic', sans-serif;
+	font-size: 17px;
 	color: $text_col;
 	line-height: 1.3;
+	font-weight: 300;
 }
 
 // Imports
@@ -84,12 +88,20 @@ section {
 .h1 {
 	font-size: 40px;
 	text-align: center;
+	font-weight: 700;
 }
 
 .h2 {
 	font-size: 28px;
+	font-weight: 600;
 }
 
+.h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*
 ::-webkit-input-placeholder {
     font-family: Century Gothic;
 }
@@ -102,12 +114,15 @@ section {
 :-ms-input-placeholder {
     font-family: Century Gothic;
 }
+*/
 
 // Wrapper
 .wrapper {
 	padding-top: 80px;
 	width: 100%;
 	margin: 0 auto;
+	// background-image: url("../img/bg.svg");
+	// background-size: cover;
 }
 
 @media(max-width: 1024px) {
@@ -127,6 +142,8 @@ section {
 	text-align: center;
 	text-transform: uppercase;
 	cursor: pointer;
+	font-weight: 500;
+	box-shadow: $shadow;
 }
 
 .green-button {
@@ -140,10 +157,10 @@ section {
 
 .black-button {
 	background-color: $white;
-	border: 1px solid $black;
+	border: 1px solid $text_col;
 	&:hover {
 		color: $white;
-		background-color: $black;
+		background-color: $text_col;
 	}
 }
 

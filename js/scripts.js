@@ -20,7 +20,7 @@ $(document).ready(function() {
       var $container = $(".mobile-menu-wrap");
       if (
           !$container.is(e.target) // if the target of the click isn't the container...
-          && $container.has(e.target).length === 0 // ... nor a descendant of the container
+          && $('.mobile-menu-button').has(e.target).length === 0 // ... nor a close button
         )
       {
         $(".mobile-menu-icon").removeClass("open");
