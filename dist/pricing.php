@@ -7,7 +7,7 @@
     	<section class="pricing-section" data-aos="fade-up">
     		<h1 class="h1">Pricing</h1>
     		<div class="pricing-model-wrap">
-	    		<div class="price-model">
+	    		<div class="price-model" data-aos="fade-up">
 	    			<h2 class="price-model-name">Basic</h2>
 	    			<div class="price-model-inner">
 		    			<div class="price-tag">
@@ -26,7 +26,7 @@
 	    			<a href="" class="button green-button">Sign Up</a>
 	    		</div>
 
-	    		<div class="price-model">
+	    		<div class="price-model" data-aos="fade-up">
 	    			<h2 class="price-model-name">Advanced</h2>
 	    			<div class="price-model-inner">
 		    			<div class="price-tag">
@@ -45,8 +45,8 @@
 	    			<a href="" class="button green-button">Sign Up</a>
 	    		</div>
 
-	    		<div class="price-model">
-	    			<h2 class="price-model-name">Advanced+</h2>
+	    		<div class="price-model" data-aos="fade-up">
+	    			<h2 class="price-model-name">Premium</h2>
 	    			<div class="price-model-inner">
 		    			<div class="price-tag">
 		    				<p><span class="euros">6<sup class="cents">99</sup></span><sub>€</sub>
