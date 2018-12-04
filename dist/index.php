@@ -60,7 +60,7 @@
 	    				<p class="feature-desc">Save your time and money by automating the processes your employees have to do on a daily basis. Thanks to Ezuro many things can be self-serviced from anywhere.</p>
 	    				<h3 class="h3">Key features:</h3>
 	    				<ul class="feature-list">
-	    					<li><span class="feature-name">Automatic schedule generator</span> - creates schedules for you taking into consideration employee unavailable days</li>
+	    					<li><span class="feature-name">Automatic schedule generator</span> - creates schedules based on employee unavailable days</li>
 	    					<li><span class="feature-name">Absence apply</span> - reduces the paperwork and lets employees declare the absence online</li>
 	    					<li><span class="feature-name">Self-service shift switching</span> - employees can do it all by themselves</li>
 	    					<li><span class="feature-name">Detailed reports</span> - see the hours each employee has worked</li>
