@@ -1,5 +1,29 @@
+.features-page {
+	section:first-of-type {
+		padding-top: 30px;
+	}
+	#third-spot {
+		top: -500px;
+	}
+	#fifth-spot {
+		right: auto;
+		transform: rotate(180deg);
+		left: -13%;
+		top: -300px;
+	}
+	#fourth-spot {
+		left: auto;
+		transform: rotate(180deg);
+		right: -13%;
+		top: 50px;
+	}
+	#second-spot {
+		width: 30%;
+		top: -100px;
+	}
+}
+
 .features-section {
-	padding-top: 30px;
 	.feature-desc {
 		padding: 10px 0;
 	}

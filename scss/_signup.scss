@@ -1,0 +1,136 @@
+.signup-page {
+	section:first-of-type {
+		padding-top: 30px;
+	}
+	#fourth-spot {
+		top: -250px;
+		left: -25%;
+		width: 40%;
+	}
+	#fifth-spot {
+		top: 200px;
+	}
+}
+.signup-section {
+	position: relative;
+	z-index: 3;
+	.signup-form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 75%;
+		border-radius: 30px;
+		box-shadow: $shadow;
+		background-color: $white;
+		padding: 50px 0 30px;
+		.plan-choice {
+			width: 30%;
+			display: flex;
+			flex-direction: column;
+			.h2 {
+				margin-bottom: 20px;
+			}
+			.radio-btn-container {
+			  display: block;
+			  position: relative;
+			  padding-left: 35px;
+			  margin-bottom: 12px;
+			  margin-top: 15px;
+			  cursor: pointer;
+			  font-size: 22px;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			  input {
+			  	position: absolute;
+				  opacity: 0;
+				  cursor: pointer;
+				  height: 0;
+				  width: 0;
+			  }
+			}
+			  /* Create a custom radio button */
+				.checkmark {
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  height: 25px;
+				  width: 25px;
+				  background-color: #eee;
+				  border-radius: 50%;
+				}
+
+				/* On mouse-over, add a grey background color */
+				.radio-btn-container:hover input ~ .checkmark {
+				  background-color: #ccc;
+				}
+
+				/* When the radio button is checked, add a blue background */
+				.radio-btn-container input:checked ~ .checkmark {
+				  background-color: $accent_col;
+				  box-shadow: $shadow;
+				}
+
+				/* Create the indicator (the dot/circle - hidden when not checked) */
+				.checkmark:after {
+				  content: "";
+				  position: absolute;
+				  display: none;
+				}
+
+				/* Show the indicator (dot/circle) when checked */
+				.radio-btn-container input:checked ~ .checkmark:after {
+				  display: block;
+				}
+
+				/* Style the indicator (dot/circle) */
+				.radio-btn-container .checkmark:after {
+				  top: 7px;
+				  left: 7px;
+				  width: 11px;
+				  height: 11px;
+				  border-radius: 50%;
+				  background: white;
+				}
+		}
+		.signup-wrap {
+			width: 50%;
+			.button {
+				display: block;
+				margin: 30px auto;
+			}
+		}
+	}
+}
+
+@media(max-width: 550px) {
+	.signup-section {
+		.signup-form {
+			width: 100%;
+		}
+	}
+}
+
+@media(max-width: 768px) {
+	.signup-section {
+		.signup-form {
+			width: 90%;
+		}
+	}
+}
+
+@media(max-width: 1024px) {
+	.signup-section {
+		.signup-form {
+			.plan-choice,
+			.signup-wrap {
+				width: 90%;
+			}
+			.plan-choice {
+				align-items: center;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

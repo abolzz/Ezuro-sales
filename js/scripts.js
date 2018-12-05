@@ -3,10 +3,10 @@
 $(document).ready(function() {
 
 	// Animate on scroll
-	AOS.init({
-		offset: 400,
-		duration: 600,
-	});
+		AOS.init({
+			offset: 320,
+			duration: 600,
+		});
 
   // Mobile menu
   $('.mobile-menu-button').click(function() {

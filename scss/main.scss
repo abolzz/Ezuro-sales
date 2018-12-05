@@ -12,7 +12,7 @@ $grey: #727272;
 $accent_col: #30de80;
 $text_col: #292828;
 
-$shadow: 0 2px 3px rgba(35, 31, 32, .25);
+$shadow: 0 0 5px rgba(35, 31, 32, .25);
 
 $transition: all 0.3s ease-in-out 0s;
 
@@ -31,9 +31,10 @@ body {
 @import 'get-started';
 @import 'footer';
 @import 'backgrounds';
-
+// Pages
 @import 'pricing';
 @import 'features';
+@import 'signup';
 
 // Reset
 * {
@@ -59,12 +60,9 @@ footer {
 	margin: 0 auto;
 }
 
-section {
-	// position: relative;
-}
-
 section:first-of-type {
 	padding-top: 0;
+	position: relative;
 }
 
 article {
@@ -162,4 +160,8 @@ ul {
 
 textarea {
 	font-family: 'Poppins', sans-serif;
+}
+
+.input {
+	background-color: $white;
 }

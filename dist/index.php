@@ -16,7 +16,7 @@
 	    	</section>
 
 	    	<section class="why-ezuro-section">
-	    		<h1 class="h1">Why Ezuro?</h1>
+	    		<h1 class="h1" data-aos="fade-up">Why Ezuro?</h1>
 
 	    		<article >
 	    			<div data-aos="fade-up" class="feature">
@@ -33,7 +33,7 @@
 		    					<li><span class="feature-name">Responsibilities</span> - see who has to do what</li>
 		    					<li><span class="feature-name">Central news announcements</span> with notifications</li>
 		    				</ul>
-		    				<a href="" class="button black-button">Learn more</a>
+		    				<a href="features.php" class="button black-button">Learn more</a>
 		    			</div>
 	    			</div>
 	    			<div id="second-spot" class="spot"></div>
@@ -54,7 +54,7 @@
 		    					<li><span class="feature-name">Employee tasks</span> - assign and see how they perform</li>
 		    					<li><span class="feature-name">Records and contracts</span> all kept safe and easy to access</li>
 		    				</ul>
-		    				<a href="" class="button black-button">Learn more</a>
+		    				<a href="features.php" class="button black-button">Learn more</a>
 		    			</div>
 	    			</div>
 	    			<div id="third-spot" class="spot"></div>
@@ -75,7 +75,7 @@
 		    					<li><span class="feature-name">Self-service shift switching</span> - employees can do it all by themselves</li>
 		    					<li><span class="feature-name">Detailed reports</span> - see the hours each employee has worked</li>
 		    				</ul>
-		    				<a href="" class="button black-button">Learn more</a>
+		    				<a href="features.php" class="button black-button">Learn more</a>
 		    			</div>
 	    			</div>
 	    			<div id="fourth-spot" class="spot"></div>
@@ -84,16 +84,7 @@
 	    	</section>
 
 	    	<section id="signup">
-	    		<div class="get-started-section" data-aos="fade-up">
-		    		<h1 class="h1">Get Started</h1>
-		    		<p class="get-started-desc">Just fill in your details and you are good to go!</p>
-		    		<form class="form signup-form">
-		    			<input class="input signup-input" type="text" name="name" placeholder="Name..." required>
-		    			<input class="input signup-input" type="text" name="email" placeholder="Email..." required>
-		    			<button class="button green-button">Sign Up</button>
-		    		</form>
-		    		<p class="note-text">In approximately 30 seconds you will receive an email with a link to your demo instance.</p>
-	    		</div>
+	    		<?php include'includes/get-started.php'; ?>
 	    		<div id="fifth-spot" class="spot"></div>
 	    	</section>
 
