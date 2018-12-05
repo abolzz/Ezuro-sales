@@ -4,8 +4,8 @@
     <body>
     	<?php include'includes/header.html'; ?>
     	<div class="wrapper">
-    	<section class="pricing-section" data-aos="fade-up">
-    		<h1 class="h1">Pricing</h1>
+    	<section class="pricing-section">
+    		<h1 class="h1">Price plans</h1>
     		<div class="pricing-model-wrap">
 	    		<div class="price-model" data-aos="fade-up">
 	    			<h2 class="price-model-name">Basic</h2>

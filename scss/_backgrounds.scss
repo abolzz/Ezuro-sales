@@ -1,0 +1,100 @@
+
+.feature, .intro-section, 
+.get-started-section, .feature-text  {
+	position: relative;
+}
+.feature-img img, .intro-img, .intro-text, .feature-list, .feature .button, #get-started-section h1, #get-started-section .signup-form {
+	z-index: 2;
+	position: relative;
+} 
+.spot {
+	z-index: 1;
+}
+#first-spot {
+	background: url("../img/first-spot.svg") no-repeat; 
+	background-size: contain;
+	width: 75%;
+	height: 800px;
+	position: absolute;
+	right: -13%;
+	top: -150px;
+	@media(min-width: 1950px) {
+		width: 73%;
+	}
+	@media(max-width: 1024px) {
+		height: 420px;
+	}
+	@media(max-width: 600px) {
+		top: -20px;
+		width: 80%;
+	}	
+}
+
+#second-spot {
+	background: url("../img/second-spot.svg") no-repeat; 
+	background-size: contain;
+	width: 35%;
+	height: 750px;
+	position: absolute;
+	left: -13%;
+	top: -600px;
+	@media(max-width: 1024px) {
+		width: 50%;
+	}
+	@media(max-width: 600px) {
+		width: 70%;
+		height: 420px;
+	}
+}
+#third-spot {
+	background: url("../img/third-spot.svg") no-repeat; 
+	background-size: contain;
+	width: 26%;
+	height: 700px;
+	position: absolute;
+	right: -13%;
+	top: -310px;
+	@media(min-width: 1950px) {
+		width: 22%;
+	}
+	@media(max-width: 1024px) {
+		width: 50%;
+	}
+	@media(max-width: 600px) {
+		width: 70%;
+		height: 600px;
+	}
+}
+#fourth-spot {
+	background: url("../img/fourth-spot.svg") no-repeat; 
+	background-size: contain;
+	width: 35%;
+	height: 700px;
+	position: absolute;
+	left: -13%;
+	top: -100px;
+	@media(max-width: 1024px) {
+		width: 50%;
+	}
+	@media(max-width: 600px) {
+		width: 75%;
+		height: 470px;
+	}
+}
+#fifth-spot {
+	background: url("../img/fifth-spot.svg") no-repeat; 
+	background-size: contain;
+	width: 40%;
+	height: 800px;
+	position: absolute;
+	right: -13%;
+	top: 0px;
+	@media(max-width: 1024px) {
+		width: 60%;
+		height: 430px;
+	}
+	@media(max-width: 600px) {
+		width: 90%;
+	}
+}
+

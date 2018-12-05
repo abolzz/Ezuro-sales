@@ -32,10 +32,15 @@ $(document).ready(function() {
 
   // Navigation update
   $('.navbar-ul a').click(function() {
-    $('.navbar-ul a').removeClass("active");
-    $(this).addClass("active");
     $(".mobile-menu-wrap").removeClass("mobile-menu-show");
   });
+
+  // Indicates the link on which page you are
+  $('.navbar-ul a').each(function() {
+	  if (top.location.pathname === "/" + $(this).attr("href")) {
+	    $(this).addClass('active');
+		}
+	});
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
