@@ -63,13 +63,17 @@
 		    			<a href="" class="button green-button">Sign Up</a>
 		    		</div>
 	    		</div>
+	    		<div class="custom-solution">
+	    			<h3 class="package-desc">Not quite what you were looking for?</h3>
+	    			<p class="package-desc">Feel free to <a href="#question-section" class="contact-link"><strong>contact us</strong></a> and we will find a right solution for your particular needs.</p>
+	    		</div>
     		</div>
     		<div id="fifth-spot" class="spot"></div>
     	</section>
 
     	<section>
+    		<h1 class="h1">FAQ</h1>
     		<div class="faq-section" data-aos="fade-up">
-	    		<h1 class="h1">FAQ</h1>
 	    		<h2 class="category">Category</h2>
 	    		<p class="question">How to do this and that?</p>
 	    		<p class="answer">Our schedule module takes care of everything regarding schedules. You won’t need to make them on your own anymore. </p>
@@ -87,9 +91,9 @@
     		<div id="fourth-spot" class="spot"></div>
     	</section>
 
-    	<section>
+    	<section id="question-section">
     		<div class="question-section" data-aos="fade-up">
-	    		<h1 class="h1">Still have questions?</h1>
+	    		<h1 class="h1">Got questions?</h1>
 	    		<p class="question-desc">Send us a message and we wil answer as soon as possible.</p>
 	    		<form name="question-form" class="form question-form">
 		    			<input class="input" type="text" name="name" placeholder="Name..." required>

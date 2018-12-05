@@ -16,6 +16,13 @@
 		left: auto;
 		width: 30%;
 	}
+	.custom-solution {
+		font-size: 20px;
+		padding-top: 40px;
+		.contact-link:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 @media(max-width: 1024px) {
@@ -61,11 +68,11 @@
 	flex-direction: column;
 	justify-content: space-between;
 	@media(min-width: 1025px) {
-		margin: 0 15px;
+		margin: 0 20px;
 	}
 	width: 27.5%;
-	max-width: 380px;
-	height: 480px;
+	max-width: 350px;
+	height: 450px;
 	border-radius: 30px;
 	box-shadow: $shadow;
 	background-color: $white;
