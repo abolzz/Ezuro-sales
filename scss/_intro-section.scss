@@ -22,11 +22,12 @@
 
 .subheadline {
 	margin-top: 25px;
-	font-size: 21px;
+	font-size: 20px;
+	line-height: 1.25;
 	@media(min-width: 1600px) {
 		font-size: 23px;
+		line-height: 1.5;
 	}
-	line-height: 1.5;
 }
 
 .intro-img {

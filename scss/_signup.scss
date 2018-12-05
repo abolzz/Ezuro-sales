@@ -39,7 +39,7 @@
 		border-radius: 30px;
 		box-shadow: $shadow;
 		background-color: $white;
-		padding: 50px 0 30px;
+		padding: 40px 0 20px;
 		.signup-desc {
 			margin-bottom: 30px;
 			font-size: 20px;
@@ -137,7 +137,7 @@
 	}
 }
 
-@media(max-width: 768px) {
+@media(min-width: 551px) and (max-width: 768px) {
 	.signup-section {
 		.signup-form {
 			width: 90%;
@@ -148,7 +148,7 @@
 	}
 }
 
-@media(max-width: 1024px) {
+@media(min-width: 769px) and (max-width: 1024px) {
 	.signup-section {
 		.signup-form {
 			width: 80%;

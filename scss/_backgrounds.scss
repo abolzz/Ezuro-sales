@@ -3,12 +3,14 @@
 .get-started-section, .feature-text  {
 	position: relative;
 }
+/*
 .feature-img img, .intro-img, .intro-text, .feature-list, .feature .button, #get-started-section h1, #get-started-section .signup-form {
 	z-index: 2;
 	position: relative;
-} 
+} */
 .spot {
 	z-index: 1;
+	opacity: .7;
 }
 #first-spot {
 	background: url("../img/first-spot.svg") no-repeat; 

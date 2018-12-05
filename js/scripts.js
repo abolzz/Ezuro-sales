@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	// Animate on scroll
 		AOS.init({
-			offset: 320,
+			offset: 200,
 			duration: 600,
 		});
 

@@ -8,7 +8,7 @@
     		<div class="pricing-section" data-aos="fade-up">
 	    		<h1 class="h1">Price plans</h1>
 	    		<div class="pricing-model-wrap">
-		    		<div class="price-model">
+		    		<div class="price-model" data-aos="fade-up">
 		    			<h2 class="price-model-name">Basic</h2>
 		    			<div class="price-model-inner">
 			    			<div class="price-tag">
@@ -27,7 +27,7 @@
 		    			<a href="" class="button green-button">Sign Up</a>
 		    		</div>
 
-		    		<div class="price-model">
+		    		<div class="price-model" data-aos="fade-up">
 		    			<h2 class="price-model-name">Advanced</h2>
 		    			<div class="price-model-inner">
 			    			<div class="price-tag">
@@ -46,7 +46,7 @@
 		    			<a href="" class="button green-button">Sign Up</a>
 		    		</div>
 
-		    		<div class="price-model">
+		    		<div class="price-model" data-aos="fade-up">
 		    			<h2 class="price-model-name">Premium</h2>
 		    			<div class="price-model-inner">
 			    			<div class="price-tag">
@@ -63,7 +63,7 @@
 		    			<a href="" class="button green-button">Sign Up</a>
 		    		</div>
 	    		</div>
-	    		<div class="custom-solution">
+	    		<div class="custom-solution" data-aos="fade-up">
 	    			<h3 class="package-desc">Not quite what you were looking for?</h3>
 	    			<p class="package-desc">Feel free to <a href="#question-section" class="contact-link"><strong>contact us</strong></a> and we will find a right solution for your particular needs.</p>
 	    		</div>
