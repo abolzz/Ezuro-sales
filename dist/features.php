@@ -9,7 +9,7 @@
                 <article>
                     <div class="feature" data-aos="fade-up">
                         <div class="feature-img">
-                            <img src="http://placehold.jp/500x360.png">
+                            <img src="http://placehold.jp/500x360.png" alt="Feature image">
                         </div>
                         <div class="feature-text">
                             <h2 class="h2">Schedules</h2>
@@ -24,7 +24,7 @@
                 <article>
                     <div class="feature" data-aos="fade-up">
                         <div class="feature-img">
-                            <img src="http://placehold.jp/500x360.png">
+                            <img src="http://placehold.jp/500x360.png" alt="Feature image">
                         </div>
                         <div class="feature-text">
                             <h2 class="h2">Processes</h2>
@@ -40,7 +40,7 @@
                 <article>
                     <div class="feature" data-aos="fade-up">
                         <div class="feature-img">
-                            <img src="http://placehold.jp/500x360.png">
+                            <img src="http://placehold.jp/500x360.png" alt="Feature image">
                         </div>
                         <div class="feature-text">
                             <h2 class="h2">Statistics</h2>
@@ -53,7 +53,7 @@
 
                 <article class="feature" data-aos="fade-up">
                     <div class="feature-img">
-                        <img src="http://placehold.jp/500x360.png">
+                        <img src="http://placehold.jp/500x360.png" alt="Feature image">
                     </div>
                     <div class="feature-text">
                         <h2 class="h2">Contacts</h2>
@@ -64,7 +64,7 @@
 
                 <article class="feature" data-aos="fade-up">
                     <div class="feature-img">
-                        <img src="http://placehold.jp/500x360.png">
+                        <img src="http://placehold.jp/500x360.png" alt="Feature image">
                     </div>
                     <div class="feature-text">
                         <h2 class="h2">Car park</h2>

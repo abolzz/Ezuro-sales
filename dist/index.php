@@ -10,7 +10,7 @@
 		    			<h1 class="headline">All your business needs in one place</h1>
 		    			<p class="subheadline">Manage and overview every aspect of your company's workflow. <strong>Ezuro</strong> is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.</p>
 		    		</div>
-		    		<img class="intro-img" src="http://placehold.jp/800x900.png" alt="">
+		    		<img class="intro-img" src="http://placehold.jp/800x900.png" alt="Introduction image">
 	    		</div>
 	    		<div id="first-spot" class="spot"></div>
 	    	</section>
@@ -21,7 +21,7 @@
 	    		<article >
 	    			<div data-aos="fade-up" class="feature">
 		    			<div class="feature-img">
-		    				<img src="http://placehold.jp/500x360.png">
+		    				<img src="http://placehold.jp/500x360.png" alt="Feature image">
 		    			</div>
 		    			<div class="feature-text">
 		    				<h2 class="h2">Manage</h2>
@@ -42,7 +42,7 @@
 	    		<article>
 	    			<div data-aos="fade-up" class="feature">
 		    			<div class="feature-img">
-		    				<img src="http://placehold.jp/500x360.png">
+		    				<img src="http://placehold.jp/500x360.png" alt="Feature image">
 		    			</div>
 		    			<div class="feature-text">
 		    				<h2 class="h2">Overview</h2>
@@ -63,7 +63,7 @@
 	    		<article>
 	    			<div data-aos="fade-up" class="feature">
 		    			<div class="feature-img">
-		    				<img src="http://placehold.jp/500x360.png">
+		    				<img src="http://placehold.jp/500x360.png" alt="Feature image">
 		    			</div>
 		    			<div class="feature-text">
 		    				<h2 class="h2">Save</h2>
