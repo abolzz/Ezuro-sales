@@ -28,10 +28,10 @@
 		    				<p class="feature-desc">Manage all your company's internal processes in one place. Ezuro lets you easily find employee contact information, overview and edit their positions, duties and responsibilities effortlessly from place and device you prefer.</p>
 		    				<h3 class="h3">Key features:</h3>
 		    				<ul class="feature-list">
-		    					<li><span class="feature-name">All employee contact information</span> in one place</li>
+		    					<li><span class="feature-name">Employee contact information</span> - all in one place</li>
 		    					<li><span class="feature-name">Job instructions</span> - clear and specific for everyone</li>
 		    					<li><span class="feature-name">Responsibilities</span> - see who has to do what</li>
-		    					<li><span class="feature-name">Central news announcements</span> with notifications</li>
+		    					<li><span class="feature-name">Central news announcements</span> - instantly notifies your employees</li>
 		    				</ul>
 		    				<a href="features.php" class="button black-button">Learn more</a>
 		    			</div>

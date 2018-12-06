@@ -28,7 +28,10 @@
                         </div>
                         <div class="feature-text">
                             <h2 class="h2">Processes</h2>
-                            <p class="feature-desc">Structure and overview all your business operations with Ezuro processes module. Easy to see all the processes linked step-by-step in a graphical way. Simple to define, edit, add descriptions and define roles so that everyone is on the same track.</p>
+                            <p class="feature-desc">Structure and overview all your business operations with Ezuro processes module.</p>
+                            <p class="feature-desc">Easy to see all business processes linked step-by-step in a graphical way. Overview the big picture from above by seeing how your structural units and employees cooperate.</p>
+                            <p class="feature-desc">Simple to define, edit, add descriptions and define roles so that everyone is on the same track.</p>
+
                         </div>
                     </div>
                     <div id="fifth-spot" class="spot"></div>
@@ -41,7 +44,8 @@
                         </div>
                         <div class="feature-text">
                             <h2 class="h2">Statistics</h2>
-                            <p class="feature-desc">Keep up with the newest data of your company's key performance indicators. With Ezuro statistics you can define goals and see how your business is doing in realtime. You can see data for each structural unit and timeframe of your interest.</p>
+                            <p class="feature-desc">Keep up with the newest data of your company's key performance indicators.</p>
+                            <p class="feature-desc">With Ezuro statistics you can define goals and see how your business is doing in realtime. You can see data for each structural unit and timeframe of your interest.</p>
                         </div>
                     </div>
                     <div id="fourth-spot" class="spot"></div>
@@ -53,7 +57,19 @@
                     </div>
                     <div class="feature-text">
                         <h2 class="h2">Contacts</h2>
-                        <p class="feature-desc">Access all the contact information of your employees and business partners from one system. Filter by job position or other characteristics and find anyone with ease. You won't have to deal with various spreadsheets and keeping them all updated - Ezuro will do it all for you!</p>
+                        <p class="feature-desc">Access all the contact information of your employees and business partners from one system.</p>
+                        <p class="feature-desc">Filter by job position or other characteristics and find anyone with ease. You won't have to deal with various spreadsheets and keeping them all updated - Ezuro will do it all for you!</p>
+                    </div>
+                </article>
+
+                <article class="feature" data-aos="fade-up">
+                    <div class="feature-img">
+                        <img src="http://placehold.jp/500x360.png">
+                    </div>
+                    <div class="feature-text">
+                        <h2 class="h2">Car park</h2>
+                        <p class="feature-desc">Manage everything regarding your company's vehicles. Fuel consumption, traffic records, availability, reports and more.</p>
+                        <p class="feature-desc">You can customize this module according your particular needs.</p>
                     </div>
                 </article>
 

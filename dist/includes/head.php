@@ -1,7 +1,8 @@
 		<head>
     	<meta charset="UTF-8">
-    	<meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="">
+    	<meta content="width=device-width, initial-scale=1" name="viewport">
+      <meta name="description" content="All your business needs in one place. Manage and overview every aspect of your company's workflow. Ezuro is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.">
+      <meta name="author" content="Gandrs IT">
 
     	<!-- Styles -->
     	<link rel="stylesheet" type="text/css" href="css/styles.min.css">

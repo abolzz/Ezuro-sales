@@ -150,22 +150,19 @@
 	@media(min-width: 1366px) {
 		width: 50%;
 	}
-	@media(min-width: 1920px) {
-		width: 40%;
-	}
 	.category {
 		padding-top: 30px;
 		text-decoration: underline;
 	}
 	.question {
 		font-style: italic;
-		font-weight: bold;
+		font-weight: 600;
 		padding-top: 15px;
-		font-size: 22px;
+		font-size: 21px;
 	}
 	.answer {
 		padding-top: 5px;
-		font-size: 18px;
+		font-size: 17px;
 	}
 }
 

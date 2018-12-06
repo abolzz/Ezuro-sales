@@ -8,23 +8,6 @@
                 <h1 class="h1" data-aos="fade-up">Sign Up</h1>
                 <div class="signup-section" data-aos="fade-up">
                     <form class="form signup-form">
-                        <!--<div class="plan-choice">
-                            <h2 class="h2">Choose your plan:</h2>
-                            <div>
-                                <label class="radio-btn-container">
-                                <input type="radio" name="price-plan" value="basic">
-                                <span class="checkmark"></span>
-                                Basic</label>
-                                <label class="radio-btn-container">
-                                <input type="radio" name="price-plan" value="advanced">
-                                <span class="checkmark"></span>
-                                Advanced</label>
-                                <label class="radio-btn-container">
-                                <input type="radio" name="price-plan" value="premium">
-                                <span class="checkmark"></span>
-                                Premium</label>
-                            </div> 
-                        </div> -->
                         <div class="signup-wrap">
                             <p class="signup-desc">Sign up now and start using Ezuro Premium 30 days for free.</p>
                             <input class="input signup-input" type="text" name="name" placeholder="Name" required>

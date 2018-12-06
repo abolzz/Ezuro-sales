@@ -36,8 +36,12 @@ $(document).ready(function() {
   });
 
   // Indicates the link on which page you are
+
+  $('#home-link').addClass('active'); // by default indicate home
+
   $('.navbar-ul a').each(function() {
 	  if (top.location.pathname === "/" + $(this).attr("href")) {
+	  	$('.navbar-ul a').removeClass('active');
 	    $(this).addClass('active');
 		}
 	});
