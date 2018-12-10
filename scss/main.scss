@@ -139,7 +139,7 @@ textarea {
 }
 
 .black-button {
-	background-color: $white;
+	background-color: rgba(255, 255, 255, .5);
 	border: 1px solid $text_col;
 	&:hover {
 		color: $white;

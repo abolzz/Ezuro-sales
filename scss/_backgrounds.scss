@@ -10,7 +10,7 @@
 } */
 .spot {
 	z-index: 1;
-	opacity: .7;
+	opacity: .75;
 }
 #first-spot {
 	background: url("../img/first-spot.svg") no-repeat; 
@@ -27,7 +27,7 @@
 		height: 420px;
 	}
 	@media(max-width: 600px) {
-		top: -20px;
+		top: -40px;
 		width: 80%;
 	}	
 }

@@ -4,21 +4,24 @@
     <body>
     	<?php include'includes/header.html'; ?>
     	<div class="wrapper">
+
+    		<!-- Intro section -->
 	    	<section>
 	    		<div class="intro-section" data-aos="fade-up">
 		    		<div class="intro-text">
 		    			<h1 class="headline">All your business needs in one place</h1>
-		    			<p class="subheadline">Manage and overview every aspect of your company's workflow. <strong>Ezuro</strong> is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.</p>
+		    			<p class="subheadline"><strong>Ezuro</strong> is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.</p>
 		    		</div>
-		    		<img class="intro-img" src="http://placehold.jp/800x900.png" alt="Introduction image">
+		    		<img class="intro-img" src="img/intro-pic.png" alt="Introduction image">
 	    		</div>
 	    		<div id="first-spot" class="spot"></div>
 	    	</section>
 
+	    	<!-- Key features section -->
 	    	<section class="why-ezuro-section">
 	    		<h1 class="h1" data-aos="fade-up">Why Ezuro?</h1>
 
-	    		<article >
+	    		<article>
 	    			<div data-aos="fade-up" class="feature">
 		    			<div class="feature-img">
 		    				<img src="http://placehold.jp/500x360.png" alt="Feature image">
@@ -83,11 +86,13 @@
 
 	    	</section>
 
+	    	<!-- Get started section -->
 	    	<section id="signup">
 	    		<?php include'includes/get-started.php'; ?>
 	    		<div id="fifth-spot" class="spot"></div>
 	    	</section>
 
+	    	<!-- Footer -->
 	    	<?php include'includes/footer.html'; ?>
     	</div>
     </body>
