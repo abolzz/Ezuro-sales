@@ -12,7 +12,7 @@
 		    			<h1 class="headline">All your business needs in one place</h1>
 		    			<p class="subheadline"><strong>Ezuro</strong> is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.</p>
 		    		</div>
-		    		<img class="intro-img" src="img/intro-pic.png" alt="Introduction image">
+		    		<img class="intro-img" src="img/intro-pic.svg" alt="Introduction image">
 	    		</div>
 	    		<div id="first-spot" class="spot"></div>
 	    	</section>

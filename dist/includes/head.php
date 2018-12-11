@@ -4,6 +4,10 @@
       <meta name="description" content="All your business needs in one place. Manage and overview every aspect of your company's workflow. Ezuro is a modern and versatile business management system that will cover all your everyday necessities in easy and well structured way.">
       <meta name="author" content="Gandrs IT">
 
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+      <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
     	<!-- Styles -->
     	<link rel="stylesheet" type="text/css" href="css/styles.min.css">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
