@@ -108,7 +108,7 @@
 	    	<div id="second-spot" class="spot"></div>
     	</section>
 
-    	<div class="mail-sent-message">
+    	<div class="mail-sent-message d-none">
     		<div class="close-icon-wrap">
 	    		<button class="close-icon">
 	    			<span></span>
