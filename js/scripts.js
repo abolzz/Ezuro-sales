@@ -21,12 +21,11 @@ $(document).ready(function() {
       if (
           !$container.is(e.target) // if the target of the click isn't the container...
           && $('.mobile-menu-button').has(e.target).length === 0 // ... nor a close button
-        )
-      {
-        $(".mobile-menu-icon").removeClass("open");
-        $(".mobile-menu-wrap").removeClass("mobile-menu-show");
-        return false;
-      }
+        ) {
+	        $(".mobile-menu-icon").removeClass("open");
+	        $(".mobile-menu-wrap").removeClass("mobile-menu-show");
+	        return false;
+      	}
     }
   });
 
@@ -44,6 +43,47 @@ $(document).ready(function() {
 	  	$('.navbar-ul li').removeClass('active');
 	    $(this).parent().addClass('active');
 		}
+	});
+
+	//when the form is submitted
+	$("#question-form").submit(function(e) {
+    e.preventDefault();
+
+    var data = {
+	    name: $("#name").val(),
+	    email: $("#email").val(),
+	    message: $("#message").val()
+		};
+
+    $.ajax({
+      type: "POST",
+      url: "send-mail.php",
+      data: data,
+      success: function() {
+       $("#question-form")[0].reset();
+       $(".mail-sent-message").removeClass("d-none");
+      }
+    });
+
+	});
+
+/*
+	$(document).mouseup(function (e) {
+    if ( !$(".mail-sent-message").hasClass('d-none') ) {
+      var $container = $(".mail-sent-message");
+      if (
+          !$container.is(e.target) // if the target of the click isn't the container...
+          && $('.mail-sent-message .close-icon').has(e.target).length === 0 // ... nor a close button
+        ) {
+	        	$(".mail-sent-message").addClass("d-none");
+	      }
+	  }
+	}
+*/
+
+
+	$(".mail-sent-message .close-icon").click(function() {
+		$(".mail-sent-message").addClass("d-none");
 	});
 
 })

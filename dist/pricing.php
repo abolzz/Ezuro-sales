@@ -98,15 +98,28 @@
     		<div class="question-section" data-aos="fade-up">
 	    		<h1 class="h1">Got questions?</h1>
 	    		<p class="question-desc">Send us a message and we wil answer as soon as possible.</p>
-	    		<form name="question-form" class="form question-form">
-		    			<input class="input" type="text" name="name" placeholder="Name..." required>
-		    			<input class="input" type="text" name="email" placeholder="Email..." required>
-		    			<textarea class="input text-input" placeholder="Message..." required></textarea>
-		    			<button class="button green-button">Send</button>
+	    			<form action="send-mail.php" id="question-form" name="question-form" class="form question-form" method="post">
+		    			<input id="name" class="input" type="text" name="name" placeholder="Name..." required>
+		    			<input id="email" class="input" type="email" name="email" placeholder="Email..." required>
+		    			<textarea id="message" class="input text-input" type="text" placeholder="Message..." required></textarea>
+		    			<button class="button green-button" id="send-mail" type="submit" name="submit" value="Submit">Send</button>
 		    		</form>
 	    	</div>
 	    	<div id="second-spot" class="spot"></div>
     	</section>
+
+    	<div class="mail-sent-message">
+    		<div class="close-icon-wrap">
+	    		<button class="close-icon">
+	    			<span></span>
+	    			<span></span>
+	    		</button>
+    		</div>
+    		<div class="inner">
+    			<img class="checkmark" src="img/checkmark.svg" alt="Checkmark">
+		    	<p>Thank you! Your message was sent!</p>
+		    </div>
+		  </div>
 
     	<?php include'includes/footer.html'; ?>
     	</div>

@@ -72,6 +72,9 @@ article {
 ul {
 	list-style-type: none;
 }
+button {
+	cursor: pointer;
+}
 
 // Fonts
 
@@ -166,4 +169,9 @@ textarea {
 
 .input {
 	background-color: $white;
+}
+
+
+.d-none {
+	display: none;
 }
