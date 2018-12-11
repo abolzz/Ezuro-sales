@@ -95,8 +95,8 @@
 	    	<!-- Footer -->
 	    	<?php include'includes/footer.html'; ?>
     	</div>
-    </body>
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="js/scripts.min.js"></script>
+    	<!-- Scripts -->
+    <script src="js/scripts.min.js"></script>
+    </body>
 </html>

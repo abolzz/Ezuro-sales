@@ -72,7 +72,7 @@
     	</section>
 
     	<section>
-    		<h1 class="h1">FAQ</h1>
+    		<h1 class="h1" data-aos="fade-up">FAQ</h1>
     		<div class="faq-section" data-aos="fade-up">
 	    		<h2 class="category">Pricing</h2>
 	    		<p class="question">Is it possible to have a custom pricing plan?</p>
@@ -110,8 +110,9 @@
 
     	<?php include'includes/footer.html'; ?>
     	</div>
+
+    	<!-- Scripts -->
+    <script src="js/scripts.min.js"></script>
     </body>
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="js/scripts.min.js"></script>
 </html>

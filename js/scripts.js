@@ -31,7 +31,7 @@ $(document).ready(function() {
   });
 
   // Navigation update
-  $('.navbar-ul a').click(function() {
+  $('.navbar-ul li').click(function() {
     $(".mobile-menu-wrap").removeClass("mobile-menu-show"); // close the mobile navigation when clicked on a navigation link
   });
 
@@ -41,8 +41,8 @@ $(document).ready(function() {
 
   $('.navbar-ul a').each(function() {
 	  if (top.location.pathname === "/" + $(this).attr("href")) {
-	  	$('.navbar-ul a').removeClass('active');
-	    $(this).addClass('active');
+	  	$('.navbar-ul li').removeClass('active');
+	    $(this).parent().addClass('active');
 		}
 	});
 
