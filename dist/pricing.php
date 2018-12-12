@@ -75,21 +75,38 @@
     		<h1 class="h1" data-aos="fade-up">FAQ</h1>
     		<div class="faq-section" data-aos="fade-up">
 	    		<h2 class="category">Pricing</h2>
-	    		<p class="question">Is it possible to have a custom pricing plan?</p>
-	    		<p class="answer">Absolutely yes.</p>
-	    		<p class="answer">We are open to make a custom plan that would meet your particular needs. Different modules and features can be combined to find the best solution.</p>
-	    		<p class="answer"><a href="#question-section">Send us a message</a> with your request and we will contact you within 24h.</p>
-	    		<p class="note-text">Note - some modules are not possible to exclude on their own as they are connected to others.</p>
+	    		<div class="question-wrap">
+		    		<p class="question">Is it possible to have a custom pricing plan?<button><img class="down-arrow" src="img/down-arrow.svg" alt="Down arrow"></button></p>
+		    		<div class="answer-wrap d-none">
+			    		<p class="answer">Absolutely yes.</p>
+			    		<p class="answer">We are open to make a custom plan that would meet your particular needs. Different modules and features can be combined to find the best solution.</p>
+			    		<p class="answer"><a href="#question-section">Send us a message</a> with your request and we will contact you within 24h.</p>
+			    		<p class="note-text">Note - some modules are not possible to exclude on their own as they are connected to others.</p>
+		    		</div>
+	    		</div>
 
-	    		<p class="question">Will I need to insert my credit card information to sign up?</p>
-	    		<p class="answer">No, you won't have to insert any billing information until you decide to buy any of the packages.</p>
+	    		<div class="question-wrap">
+		    		<p class="question">Will I need to insert my credit card information to sign up?<button><img class="down-arrow" src="img/down-arrow.svg" alt="Down arrow"></button></p>
+		    		<div class="answer-wrap d-none">
+		    			<p class="answer">No, you won't have to insert any billing information until you decide to buy any of the packages.</p>
+		    		</div>
+	    		</div>
 
-	    		<p class="question">What if the number of users change?</p>
-	    		<p class="answer">Our system is flexible for any changes. For example, if in the current month the number of users is smaller then also the bill will be reduced according to that.</p>
+	    		<div class="question-wrap">
+		    		<p class="question">What if the number of users change?<button><img class="down-arrow" src="img/down-arrow.svg" alt="Down arrow"></button></p>
+		    		<div class="answer-wrap d-none">
+		    			<p class="answer">Our system is flexible for any changes. For example, if in the current month the number of users is smaller then also the bill will be reduced according to that.</p>
+		    		</div>
+	    		</div>
 
-	    		<h2 class="category">Technical</h2>
-	    		<p class="question">Is it possible to get help with setting up?</p>
-	    		<p class="answer">Yes, even though our system is very intuitive, we don't expect you to do it all on your own. Our support team will help you to setup and get going with Ezuro as quickly as possible.</p>
+	    		<div class="question-wrap">
+		    		<h2 class="category">Technical</h2>
+		    		<p class="question">Is it possible to get help with setting up?<button><img class="down-arrow" src="img/down-arrow.svg" alt="Down arrow"></button></p>
+		    		<div class="answer-wrap d-none">
+		    			<p class="answer">Yes, even though our system is very intuitive, we don't expect you to do it all on your own. Our support team will help you to setup and get going with Ezuro as quickly as possible.</p>
+		    		</div>
+	    		</div>
+
     		</div>
     		<div id="fourth-spot" class="spot"></div>
     	</section>

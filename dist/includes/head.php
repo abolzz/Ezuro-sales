@@ -15,7 +15,7 @@
       <!-- Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari" rel="stylesheet">
 
-      <title>Ezuro - All in one business management software | <?php echo $title; ?></title>
+      <title><?php echo $title; ?> | Ezuro - All in one business management software</title>
 
       <!-- jQuery -->
       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

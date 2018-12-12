@@ -67,19 +67,12 @@ $(document).ready(function() {
 
 	});
 
-/*
-	$(document).mouseup(function (e) {
-    if ( !$(".mail-sent-message").hasClass('d-none') ) {
-      var $container = $(".mail-sent-message");
-      if (
-          !$container.is(e.target) // if the target of the click isn't the container...
-          && $('.mail-sent-message .close-icon').has(e.target).length === 0 // ... nor a close button
-        ) {
-	        	$(".mail-sent-message").addClass("d-none");
-	      }
-	  }
-	}
-*/
+	
+	// Opens FAQ answers
+	$(".question-wrap .down-arrow").click(function() {
+		$(this).toggleClass("arrow-up");
+		$(this).parents(".question-wrap").find(".answer-wrap").toggleClass("d-none");
+	});
 
 
 	$(".mail-sent-message .close-icon").click(function() {
