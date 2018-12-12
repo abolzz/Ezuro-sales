@@ -160,8 +160,8 @@
 		display: flex;
 		justify-content: space-between;
 		.down-arrow {
-			width: 20px;
-			height: 20px;
+			width: 18px;
+			height: 18px;
 			transition: $transition;
 		}
 		.arrow-up {
@@ -239,7 +239,7 @@
   		height: 1px;
   		width: 100%;
   		background-color: $black;
-  		top: 8;
+  		top: 8px;
   		&:last-of-type {
   			transform: rotate(-45deg);
   		}

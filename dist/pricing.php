@@ -118,7 +118,7 @@
 	    			<form action="send-mail.php" id="question-form" name="question-form" class="form question-form" method="post">
 		    			<input id="name" class="input" type="text" name="name" placeholder="Name..." required>
 		    			<input id="email" class="input" type="email" name="email" placeholder="Email..." required>
-		    			<textarea id="message" class="input text-input" type="text" placeholder="Message..." required></textarea>
+		    			<textarea id="message" class="input text-input" placeholder="Message..." required></textarea>
 		    			<button class="button green-button" id="send-mail" type="submit" name="submit" value="Submit">Send</button>
 		    		</form>
 	    	</div>

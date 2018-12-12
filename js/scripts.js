@@ -45,7 +45,7 @@ $(document).ready(function() {
 		}
 	});
 
-	//when the form is submitted
+	//Does not reload the page when the form is submitted
 	$("#question-form").submit(function(e) {
     e.preventDefault();
 

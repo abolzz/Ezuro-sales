@@ -9,7 +9,7 @@
                 <div class="signup-section" data-aos="fade-up">
                     <form class="form signup-form">
                         <div class="signup-wrap">
-                            <p class="signup-desc">Sign up now and start using Ezuro Premium 30 days for free.</p>
+                            <p class="signup-desc">Sign up now and start using Ezuro Premium 30 days for free!</p>
                             <input class="input signup-input" type="text" name="name" placeholder="Name" required>
                             <input class="input signup-input" type="text" name="surname" placeholder="Surname" required>
                             <input class="input signup-input" type="email" name="email" placeholder="Email" required>
