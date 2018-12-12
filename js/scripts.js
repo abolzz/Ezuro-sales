@@ -35,7 +35,6 @@ $(document).ready(function() {
   });
 
   // Indicates the link on which page you are
-
   $('#home-link').addClass('active'); // by default indicate home
 
   $('.navbar-ul a').each(function() {
@@ -75,6 +74,7 @@ $(document).ready(function() {
 	});
 
 
+	// Close mail sent message
 	$(".mail-sent-message .close-icon").click(function() {
 		$(".mail-sent-message").addClass("d-none");
 	});

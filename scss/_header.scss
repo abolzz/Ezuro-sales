@@ -82,7 +82,7 @@
 			}
 		}
 	}
-	li {
+	.navbar-ul--li {
 		padding: 5px 25px 5px 0;
 		@media(min-width: 1365px) {
 			&:hover {
@@ -103,6 +103,10 @@
 	}
 }
 
+.active-lang {
+	font-weight: 600;
+}
+
 @media screen and (max-width: 1365px) {
 	.navbar {
 		width: 90%;
@@ -116,20 +120,25 @@
 		padding-top: 80px;
 		width: 60%;
 		margin: 0 auto;
-		li {
+		.navbar-ul--li {
 			position: relative;
 			padding: 0;
 			margin: 10px 0;
-			&:last-of-type {
-				&:before {
-					display: none;
-				}
-				a {
-					margin-left: 0;
-				}
-			}
 			a {
 				margin-left: 20px;
+			}
+		}
+		.demo {
+			&:before {
+				display: none;
+			}
+			a {
+				margin-left: 0;
+			}
+		}
+		.lang {
+			a {
+				margin-right: 20px;
 			}
 		}
 		.active {
