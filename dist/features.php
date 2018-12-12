@@ -64,7 +64,7 @@
 
                 <article class="feature" data-aos="fade-up">
                     <div class="feature-img">
-                        <img src="http://placehold.jp/500x360.png" alt="Feature image">
+                        <img src="img/car-park.svg" alt="Car park image">
                     </div>
                     <div class="feature-text">
                         <h2 class="h2">Car park</h2>
