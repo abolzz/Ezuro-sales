@@ -2,8 +2,13 @@
 	section:first-of-type {
 		padding-top: 30px;
 	}
+	article:first-of-type {
+		.feature {
+			margin-top: 50px;
+		}
+	}
 	#third-spot {
-		top: -500px;
+		top: -480px;
 	}
 	#fifth-spot {
 		right: auto;
