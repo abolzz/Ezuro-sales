@@ -15,7 +15,7 @@
                             <input class="input signup-input" type="email" name="email" placeholder="Email" required>
                             <input class="input signup-input" type="text" name="company" placeholder="Company name" required>
                             <label>
-                                <input class="input signup-input" type="text" name="domain" placeholder="[Subdomain].ezuro.com" required>
+                                <input class="input signup-input" type="text" name="domain" placeholder="[Subdomain].ezuro.com" maxlength="15" required>
                             </label>
                             <button class="button green-button">Sign Up</button>
                         </div>

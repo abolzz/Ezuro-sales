@@ -8,13 +8,9 @@
 		<input class="input signup-input" type="email" name="email" placeholder="Email" required>
 		<input class="input signup-input" type="text" name="company" placeholder="Company name" required>
 		<label>
-			<input class="input signup-input" type="text" name="domain" placeholder="[Subdomain].ezuro.com" required>
+			<input class="input signup-input" type="text" name="domain" placeholder="[Subdomain].ezuro.com" maxlength="15" required>
 		</label>
 		<button class="button green-button">Try now</button>
 	</form>
 	<p class="note-text">In approximately 30 seconds you will receive an email with a link to your personal trial instance and further instructions.</p>
-	<!--
-	<p class="get-started-desc">Or check the Demo without signing up.</p>
-	<button class="button green-button">Live Demo</button>
--->
 </div>
