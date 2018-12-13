@@ -38,7 +38,7 @@ $(document).ready(function() {
   $('#home-link').addClass('active'); // by default indicate home
 
   $('.navbar-ul a').each(function() {
-	  if (top.location.pathname === "/" + $(this).attr("href")) {
+	  if (top.location.pathname === "/ezuro/" + $(this).attr("href")) {
 	  	$('.navbar-ul li').removeClass('active');
 	    $(this).parent().addClass('active');
 		}
