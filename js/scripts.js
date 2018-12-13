@@ -68,8 +68,8 @@ $(document).ready(function() {
 
 	
 	// Opens FAQ answers
-	$(".question-wrap .down-arrow").click(function() {
-		$(this).toggleClass("arrow-up");
+	$(".question-wrap .question").click(function() {
+		$(this).find(".down-arrow").toggleClass("arrow-up");
 		$(this).parents(".question-wrap").find(".answer-wrap").toggleClass("d-none");
 	});
 

@@ -92,10 +92,19 @@
 					background: $black; 
 					display: block;
 				}
+				&:last-of-type {
+					&:after {
+						display: none;
+					}
+				}
 			}
 		}
 		&:last-of-type {
 			padding: 5px 0;
+		}
+	}
+	.demo {
+		&:hover {
 			&:after {
 				display: none;
 			}
@@ -103,8 +112,15 @@
 	}
 }
 
+.lang {
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
 .active-lang {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 1365px) {

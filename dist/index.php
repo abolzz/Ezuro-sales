@@ -24,7 +24,7 @@
 	    		<article>
 	    			<div data-aos="fade-up" class="feature">
 		    			<div class="feature-img">
-		    				<img src="http://placehold.jp/500x360.png" alt="Feature image">
+		    				<img src="img/manage.svg" alt="Manage image">
 		    			</div>
 		    			<div class="feature-text">
 		    				<h2 class="h2">Manage</h2>

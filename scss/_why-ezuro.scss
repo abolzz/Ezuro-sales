@@ -13,6 +13,12 @@
 	}
 }
 
+article:first-of-type {
+	.feature {
+		margin-top: 50px;
+	}
+}
+
 .feature-img {
 	img {
 		max-width: 100%;
