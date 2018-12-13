@@ -162,6 +162,9 @@
 		font-size: 21px;
 		display: flex;
 		justify-content: space-between;
+		&:hover {
+			cursor: pointer;
+		}
 		.down-arrow {
 			width: 18px;
 			height: 18px;
